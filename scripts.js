@@ -1,5 +1,5 @@
 /* =========================================
-   scripts.js — Mritunjay Kumar Portfolio
+   scripts.js — Sompa Bhui Portfolio
    ========================================= */
 
 'use strict';

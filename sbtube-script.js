@@ -213,7 +213,7 @@ async function installPWA(){if(deferredPrompt){deferredPrompt.prompt();const{out
 window.installPWA=installPWA;
 function dismissBanner(){document.getElementById('pwaBanner')?.classList.remove('show');localStorage.setItem('pwaDismissed','1')}
 window.dismissBanner=dismissBanner;
-if('serviceWorker'in navigator)window.addEventListener('load',async()=>{try{await navigator.serviceWorker.register('mktube-sw.js')}catch(e){}});
+if('serviceWorker'in navigator)window.addEventListener('load',async()=>{try{await navigator.serviceWorker.register('sbtube-sw.js')}catch(e){}});
 
 /* ═══════════════════════════════════════
    FULLSCREEN SHORTS — YouTube-style swipe
